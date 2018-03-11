@@ -1,0 +1,25 @@
+{
+  "name": "chai-demo",
+  "version": "1.0.0",
+  "description": "Demo on using chai unit testing frame work",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config": "^1.30.0",
+    "express": "^4.16.2",
+    "mocha-each": "^1.1.0",
+    "mongoose": "^5.0.9",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.4"
+  },
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "SET NODE_ENV=test && mocha test.js --timeout 10000"
+  },
+  "author": "Surendra Babu Parchuru",
+  "license": "ISC"
+}
